@@ -1,19 +1,16 @@
 ```
-                                               ┌──────────────┐
-   ───  ╭──────────────────────────────╮       │ ┌──────────┐ │
- ─ ───  │ PROCESSOUT             ))))  │       │ │ APPROVED │ │
-   ──── │  ┌──┐                        │ )))   │ │   4.20 € │ │
-  ───── │  │▓▓│                        │  ))   │ └──────────┘ │
-   ──── │  └──┘                        │       │  1   2   3   │
- ─ ───  │  4242  4242  4242  4242      │       │  4   5   6   │
-   ───  │  JEAN-BAPTISTE      12/99    │       │  7   8   9   │
-        ╰──────────────────────────────╯       │  C   0   OK  │
-                                               └──────────────┘
+                                               ┌──────────────┐  ┌──────────────────────────────────┐
+   ───  ╭──────────────────────────────╮       │ ┌──────────┐ │  │       P R O C E S S O U T        │
+ ─ ───  │ PROCESSOUT             ))))  │       │ │ APPROVED │ │  │ ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ │
+   ──── │  ┌──┐                        │ )))   │ │   4.20 € │ │  │ NAME               Jean-Baptiste │
+  ───── │  │▓▓│                        │  ))   │ └──────────┘ │  │ ROLE  Senior Software Engineer 1 │
+   ──── │  └──┘                        │       │  1   2   3   │  │ TEAM           Data @ ProcessOut │
+ ─ ───  │  4242  4242  4242  4242      │       │  4   5   6   │  │ CITY                       Paris │
+   ───  │  JEAN-BAPTISTE      12/99    │       │  7   8   9   │  │ ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ │
+        ╰──────────────────────────────╯       │  C   0   OK  │  │ 1x coffee                 4.20 € │
+                                               └──────────────┘  │ STATUS                  APPROVED │
+                                                                 ╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯╰╯──
 ```
-
-### hi, I'm Jean-Baptiste 👋
-
-Senior Software Engineer 1 · Data Team @ **ProcessOut** (Checkout.com) — 📍 Paris
 
 <p>
   <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" />
