@@ -1,30 +1,19 @@
 ```
- ╭─────────────────────────────────────╮
- │ PROCESSOUT                    ))))  │
- │  ┌───┐                              │
- │  │▓▓▓│                              │
- │  └───┘                              │
- │  4242  4242  4242  4242             │
- │  JEAN-BAPTISTE         VALID 12/99  │
- ╰─────────────────────────────────────╯
-  $ curl -X POST /payments -d @coffee.json
-  < HTTP/1.1 200 OK
-  { "status": "authorized", "3ds": "ok" }
+                                               ┌──────────────┐
+   ───  ╭──────────────────────────────╮       │ ┌──────────┐ │
+ ─ ───  │ PROCESSOUT             ))))  │       │ │ APPROVED │ │
+   ──── │  ┌──┐                        │ )))   │ │   4.20 € │ │
+  ───── │  │▓▓│                        │  ))   │ └──────────┘ │
+   ──── │  └──┘                        │       │  1   2   3   │
+ ─ ───  │  4242  4242  4242  4242      │       │  4   5   6   │
+   ───  │  JEAN-BAPTISTE      12/99    │       │  7   8   9   │
+        ╰──────────────────────────────╯       │  C   0   OK  │
+                                               └──────────────┘
 ```
 
 ### hi, I'm Jean-Baptiste 👋
 
 Senior Software Engineer 1 · Data Team @ **ProcessOut** (Checkout.com) — 📍 Paris
-
-```
-  [card] ──▶ [processout] ──▶ [acquirer] ──▶ [scheme] ──▶ [issuer]
-                                                              │
-  [card] ◀─────────────────── 200 OK ◀────────────────────────┘
-
-  auth rate    ███████████████████▒  97.4%
-  p95 latency  ██████▒░░░░░░░░░░░░░  180ms
-  coffee       ████████████████████  ∞
-```
 
 <p>
   <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" />
